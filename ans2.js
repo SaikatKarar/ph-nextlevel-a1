@@ -1,6 +1,6 @@
 // Question 2: Bangladesh Weekend Machine 
 
-function isWeekend(day) {
+function getDayType(day) {
     const lowerCaseDay = day.toLowerCase();
     switch (lowerCaseDay) {
         case "friday":
@@ -18,6 +18,6 @@ function isWeekend(day) {
     }
 }
 
-console.log(isWeekend("Friday"));
-console.log(isWeekend("Saturday"));
-console.log(isWeekend("Sunday"));
+console.log(getDayType("Friday"));
+console.log(getDayType("Saturday"));
+console.log(getDayType("Sunday"));

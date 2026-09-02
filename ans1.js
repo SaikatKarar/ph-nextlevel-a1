@@ -9,7 +9,7 @@ function describeValue(value) {
         truthyorfalsy = "falsy";
     }
 
-    return `${type} || ${truthyorfalsy}`;
+    return `${type} | ${truthyorfalsy}`;
 }
 
 console.log(describeValue("hello"));
